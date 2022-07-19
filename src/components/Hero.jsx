@@ -1,10 +1,7 @@
-import React, { useState } from "react";
 import { useFetch } from "../hooks/useFetch";
 
 function Hero({ year }) {
-  const [url, setUrl] = useState(
-    `https://nfl-team-stats.p.rapidapi.com/v1/nfl-stats/teams/win-stats/${year}`
-  );
+  const url = `https://nfl-team-stats.p.rapidapi.com/v1/nfl-stats/teams/win-stats/${year}`;
   const options = {
     method: "GET",
     headers: {
