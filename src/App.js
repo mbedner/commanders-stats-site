@@ -17,7 +17,7 @@ function App() {
       <img
         src={player}
         alt="t-mac"
-        className="absolute 2xl:right-40 lg:right-12 bottom-0 2xl:h-full lg:h-[75%] xl:h-[90%] xl:block hidden"
+        className="absolute 2xl:right-40 lg:right-12 bottom-0 lg:h-[75%] xl:h-[85%] xl:block hidden"
       />
     </div>
   );

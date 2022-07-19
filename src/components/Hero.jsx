@@ -32,7 +32,7 @@ function Hero({ year }) {
           </h1>
           <h1
             id="comms"
-            className="font-bold 2xl:text-[160px] lg:text-[85px] font-display text-secondary uppercase lg:leading-[85px] xs:text-6xl text-5xl"
+            className="font-bold 2xl:text-[160px] lg:text-[85px] font-display text-secondary uppercase lg:leading-[85px] xs:text-6xl text-5xl relative z-50"
           >
             Commanders
           </h1>
